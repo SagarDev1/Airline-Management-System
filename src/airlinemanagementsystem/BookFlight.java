@@ -206,7 +206,7 @@ public class BookFlight extends JFrame implements ActionListener{
                     labelfname.setText(rs.getString("f_name")); 
                     labelfcode.setText(rs.getString("f_code")); 
                 } else {
-                    JOptionPane.showMessageDialog(null, "No Flights Found");                
+                    JOptionPane.showMessageDialog(null, "No Flights Found!");                
                 }
             } catch (Exception e) {
                 e.printStackTrace();

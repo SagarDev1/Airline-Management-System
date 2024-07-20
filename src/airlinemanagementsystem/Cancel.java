@@ -146,7 +146,7 @@ public class Cancel extends JFrame implements ActionListener{
 
                 
                 
-                JOptionPane.showMessageDialog(null, "Ticket Cancelled");
+                JOptionPane.showMessageDialog(null, "Ticket Cancelled!");
                 setVisible(false);                
                 
             } catch (Exception e) {
